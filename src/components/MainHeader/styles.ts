@@ -5,3 +5,10 @@ export const Container = styled.div`
     color: ${props => props.theme.colors.white}; 
     background-color: ${props => props.theme.colors.secondary};
 `;
+
+export const Profile = styled.div``;
+
+export const Welcome = styled.h3``;
+
+export const UserName = styled.span``;
+

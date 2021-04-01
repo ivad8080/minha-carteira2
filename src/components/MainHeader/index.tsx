@@ -1,11 +1,20 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { 
+        Container,
+        Profile,
+        Welcome,
+        UserName 
+} from './styles';
 
 const MainHeader: React.FC = () => {
     return (
         <Container>
             <h1>Toggle</h1>
+            <Profile>
+                <Welcome>Olá,</Welcome>
+                <UserName>Davi SAS</UserName>
+            </Profile>
         </Container>
     );
 }
