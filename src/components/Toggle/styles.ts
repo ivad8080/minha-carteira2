@@ -17,3 +17,4 @@ export const ToggleSelector = styled(Switch).attrs<ReactSwitchProps>(
     }))<ReactSwitchProps>`
     margin: 0 7px;    
 `;
+
